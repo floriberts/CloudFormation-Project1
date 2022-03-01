@@ -1,0 +1,10 @@
+Resources:
+  FloribertInstance: 
+    Type: 'AWS::EC2::Instance'
+    Properties: 
+      AvailabilityZone: "us-west-1b"
+      ImageId:  ami-0573b70afecda915d
+      InstanceType: t3.micro
+      Tags: 
+        - Key: "Name" 
+          Value: "Floribert-Homework 1 Cloudformation"  
